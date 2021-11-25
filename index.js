@@ -1,5 +1,9 @@
 function hasTargetSum(array, target) {
-  // Write your algorithm here
+  //array.forEach(integer => {
+    for (let i = 0; i < array.length; i++) {
+      console.log(array[i], array[`${i++}`])
+    }
+  //})
 }
 
 /* 
@@ -7,7 +11,7 @@ function hasTargetSum(array, target) {
 */
 
 /* 
-  Add your pseudocode here
+The function hasTargetSum() takes in two arguments: an array of integers and a target integer. If any 2 of the integers in the array can be added together to become the same number as the target integer then the return value should be true, otherwise it returns false. This means that I have to write a function that iterates through the array and adds every combination of two integers together and compares each outcome to the target integer.
 */
 
 /*
